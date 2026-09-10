@@ -1,0 +1,4 @@
+{
+  "dotenv.enable": false,
+  "python-envs.defaultEnvManager": "ms-python.python:system"
+}
