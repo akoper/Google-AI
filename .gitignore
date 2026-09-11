@@ -1,0 +1,64 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node / frontend dependencies and build output
+node_modules/
+.npm/
+.pnpm-store/
+**/node_modules/
+**/package-lock.json
+**/.vite/
+**/.cache/
+**/.parcel-cache/
+**/dist/
+**/build/
+**/coverage/
+**/*.tsbuildinfo
+
+# Python / env files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+**/.venv/
+**/__pycache__/
+**/.env
+**/.env.*
+
+# Local runtime state and generated files
+.adk/
+**/.adk/
+*.db
+**/*.db
+*.log
+logs/
+*.tmp
+tmp/
+temp/
+
+# Sample media / screenshots / docs usually not source-controlled
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp3
+*.mp4
+*.m4a
+*.pdf
+*.mov
+*.avi
+
+# Git internals
+.git/
